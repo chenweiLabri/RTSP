@@ -52,15 +52,17 @@ This is an approach to repair test scripts efficiently for large web application
    npm install
    ```
 
-   Run Steps:
+   Set Steps:
 
      * Set the fileName in file  transferScenario.js (set the test script to test). 
-       For example, ` const fileName = '/joomla/' + 'joomla001Login.js';`
-   
+       For example, const fileName = '/joomla/' + 'joomla001Login.js';
 
-     * In this script, set the url of GotoAction, `.goto("http://localhost:8888/Joomla_3_6_0/")//version 3.6.0`
+     * In this script, set the url of GotoAction, 
+       For example, .goto("http://localhost:8888/Joomla_3_6_0/")//version 3.6.0
        Because the web apps are different and their releases are also different, so the goto urls differ.
 
-     * `Mocha playToFix.js`
+   Run TSRP:
+
+     `Mocha playToFix.js`
 
    
