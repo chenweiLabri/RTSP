@@ -13,8 +13,7 @@ This is an approach to repair test scripts efficiently for large web application
 
 2. And install these web apps   
    
-   The database for them is mysql
-   Database Configuration:
+   The database for them is mysql. Database Configuration:
      * Host name:127.0.0.1
      * Username:root
      * passworld: 12345678
@@ -27,11 +26,12 @@ This is an approach to repair test scripts efficiently for large web application
 3. Then these web apps are ready to test.
 
    On my local computer machine, I set the port as **8888** , 
+
    So the Joomla URLs are :
      * http://localhost:8888/Joomla_3_6_0/administrator/ 
      * http://localhost:8888/Joomla_3_7_0/administrator/
 
-   Adn Moodle URLs : 
+   And Moodle URLs : 
      * http://localhost:8888/moodle-3.4.0/ 
      * http://localhost:8888/moodle-3.4.5/
 
