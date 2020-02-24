@@ -6,7 +6,9 @@ This is an approach to repair test scripts efficiently for large web application
 1. Download the corresponding versions of the web applications.
 
    [Joomla 3.6.0 and Joomla 3.7.0](https://github.com/joomla/joomla-cms/releases)
+
    [dolibarr-6.0.0 and dolibarr-7.0.0](https://github.com/Dolibarr/dolibarr/releases)
+
    [moodle-3.4.0 and moodle-3.4.5](https://github.com/moodle/moodle/releases)  
 
 2. And install these web apps   
@@ -51,7 +53,11 @@ This is an approach to repair test scripts efficiently for large web application
    ```
 
    Run Steps:
-     * Set the fileName in file  transferScenario.js (set the test script to test). For example, ` const fileName = '/joomla/' + 'joomla001Login.js';`
+
+     * Set the fileName in file  transferScenario.js (set the test script to test). 
+       For example, ` const fileName = '/joomla/' + 'joomla001Login.js';`
+   
+
      * In this script, set the url of GotoAction, `.goto("http://localhost:8888/Joomla_3_6_0/")//version 3.6.0`
        Because the web apps are different and their releases are also different, so the goto urls differ.
 
