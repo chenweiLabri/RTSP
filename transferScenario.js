@@ -4,7 +4,7 @@ var childProcess = require('child_process');
 //=======================================================================================
 
 // const fileName = '/joomla/' + 'joomla000exampleinPaper.js'; 
-// const fileName = '/joomla/' + 'joomla001Login.js'; 
+const fileName = '/joomla/' + 'joomla001Login.js'; 
 // const fileName = '/joomla/' + 'joomla002PopularTags.js'; 
 // const fileName = '/joomla/' + 'joomla003LatestArticles.js'; 
 // const fileName = '/joomla/' + 'joomla004UserYourProfile.js'; 
@@ -110,7 +110,7 @@ var childProcess = require('child_process');
 
 // const fileName = '/dolibarr/' + '012dolibarrModulesMenuModifyMenuHandlers.js';
 // const fileName = '/dolibarr/' + '013dolibarrModulesMenuModifyMenuHandlersSave.js';
-const fileName = '/dolibarr/' + '014dolibarrDisplayModify.js';
+// const fileName = '/dolibarr/' + '014dolibarrDisplayModify.js';
 // const fileName = '/dolibarr/' + '015dolibarrTranslationSearch.js';
 // const fileName = '/dolibarr/' + '016dolibarrWidgetsSave.js';
 // const fileName = '/dolibarr/' + '017dolibarrAlertsModify.js';

@@ -8,8 +8,8 @@ var nightmare = Nightmare({
 
 nightmare
   // Visit login page
-  // .goto("http://localhost:8888/Joomla_3_6_0/")////version 3.6.0
-  .goto("http://localhost:8888/Joomla_3_7_0/")////version 3.7.0
+  .goto("http://localhost:8888/Joomla_3_6_0/")////version 3.6.0
+  // .goto("http://localhost:8888/Joomla_3_7_0/")////version 3.7.0
 
   .type("#modlgn-username", "admin")
   .type("#modlgn-passwd", "123456")
